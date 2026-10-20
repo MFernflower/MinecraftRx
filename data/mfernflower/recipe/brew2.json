@@ -40,12 +40,12 @@
       "minecraft:lore": [
         {
           "text": "A carefully distilled sedative.",
-          "color": "blue",
+          "color": "gold",
           "italic": true
         },
         {
           "text": "Soothes the body, clouds the mind.",
-          "color": "dark_gray",
+          "color": "gray",
           "italic": true
         }
       ]
