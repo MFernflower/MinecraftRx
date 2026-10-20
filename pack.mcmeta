@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 61,
-    "description": "MinecraftRx: The purveyor of rare herbs and proscribed chemicals is back!"
+    "pack_format": 121,
+    "description": "§3 MinecraftRx: The purveyor of rare herbs and proscribed chemicals is back!",
+    "min_format": 101,
+    "max_format": 121
   }
 }
