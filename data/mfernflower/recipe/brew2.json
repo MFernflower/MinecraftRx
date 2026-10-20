@@ -18,10 +18,15 @@
           {
             "id": "minecraft:regeneration",
             "amplifier": 0,
-            "duration": 400
+            "duration": 200
           },
           {
             "id": "minecraft:nausea",
+            "amplifier": 0,
+            "duration": 200
+          },
+           {
+            "id": "minecraft:slowness",
             "amplifier": 0,
             "duration": 200
           }
@@ -35,7 +40,7 @@
       "minecraft:lore": [
         {
           "text": "A carefully distilled sedative.",
-          "color": "gray",
+          "color": "blue",
           "italic": true
         },
         {
