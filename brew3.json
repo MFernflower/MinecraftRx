@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:lingering_potion",
+    "potion_contents": {
+      "potion": "minecraft:awkward"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:warped_nylium"
+  },
+  "output": {
+    "id": "minecraft:lingering_potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 3515942,
+        "custom_effects": [
+          {
+            "id": "minecraft:wither",
+            "amplifier": 1,
+            "duration": 300
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Satratoxin Extract",
+        "color": "dark_green",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A concentrated macrocyclic trichothecene mycotoxin.",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "Necrotic rot that clings to the air.",
+          "color": "dark_red",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

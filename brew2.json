@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "potion": "minecraft:awkward"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:poppy"
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 14227788,
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:nausea",
+            "amplifier": 0,
+            "duration": 200
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Poppy Tonic",
+        "color": "red",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A carefully distilled sedative.",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "Soothes the body, clouds the mind.",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

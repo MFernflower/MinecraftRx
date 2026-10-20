@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "potion": "minecraft:awkward"
+    }
+  },
+  "reagent": {
+    "item": "minecraft:red_mushroom_block"
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 16724736,
+        "custom_effects": [
+          {
+            "id": "minecraft:nausea",
+            "amplifier": 0,
+            "duration": 300
+          },
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 140
+          },
+          {
+            "id": "minecraft:glowing",
+            "amplifier": 0,
+            "duration": 600
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Fly Agaric Tonic",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A heavy, mind-bending toadstool distillate.",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "Causes profound sensory distortion.",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  }
+}
