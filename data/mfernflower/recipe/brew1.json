@@ -17,29 +17,29 @@
         "custom_effects": [
           {
             "id": "minecraft:nausea",
-            "amplifier": 0,
-            "duration": 200
+            "amplifier": 1,
+            "duration": 400
           },
           {
             "id": "minecraft:slowness",
             "amplifier": 1,
-            "duration": 200
+            "duration": 400
           },
           {
             "id": "minecraft:blindness",
-            "amplifier": 0,
-            "duration": 200
+            "amplifier": 1,
+            "duration": 400
           },
           {
             "id": "minecraft:glowing",
-            "amplifier": 0,
+            "amplifier": 1,
             "duration": 400
           }
         ]
       },
       "minecraft:custom_name": {
         "text": "Fly Agaric Tonic",
-        "color": "light_purple",
+        "color": "magenta",
         "italic": false
       },
       "minecraft:lore": [
@@ -49,7 +49,7 @@
           "italic": true
         },
         {
-          "text": "Causes profound sensory distortion.",
+          "text": "Causes profound sensory distortion when consumed.",
           "color": "dark_purple",
           "italic": true
         }
