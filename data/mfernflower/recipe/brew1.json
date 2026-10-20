@@ -18,7 +18,7 @@
           {
             "id": "minecraft:nausea",
             "amplifier": 0,
-            "duration": 300
+            "duration": 200
           },
           {
             "id": "minecraft:slowness",
@@ -28,12 +28,12 @@
           {
             "id": "minecraft:blindness",
             "amplifier": 0,
-            "duration": 140
+            "duration": 200
           },
           {
             "id": "minecraft:glowing",
             "amplifier": 0,
-            "duration": 600
+            "duration": 400
           }
         ]
       },
@@ -45,7 +45,7 @@
       "minecraft:lore": [
         {
           "text": "A heavy, mind-bending toadstool distillate.",
-          "color": "gray",
+          "color": "green",
           "italic": true
         },
         {
